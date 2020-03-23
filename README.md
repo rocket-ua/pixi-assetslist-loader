@@ -1,11 +1,12 @@
 # PIXI-ASSETSLIST-LOADER
-Simple library for PIXI.js to help download all assets using one (or some) config file.
+Simple library for PIXI.js to help download all assets using one (or some) config file.  
+This library allows you to edit only json files for manage what resources should be downloaded without changing code.  
+
+All paths for assets from asset list file must be relative to current asset list file location.  
+As asset to download can be all what you can use in PIXI.js (images, sounds, sprite sheets, animations etc.).  
+As asset you can use another json asset list file for PIXI-ASSETSLIST-LOADER.  
 ___
 ## How to use
-All paths for assets from config file must be relative to config file location.  
-All paths is relative to baseUrl from PIXI Loader.  
-As asset to download can be all what you can use in PIXI.js (images, sounds, sprite sheets, animations etc.).  
-As asset you can use another json config file for PIXI-ASSETSLIST-LOADER.  
 To use assets list files with PIXI Loader, just connect the library to the project as follows:  
 ```javascript
 import * as PIXI from "pixi.js";
@@ -20,7 +21,7 @@ Assets list files is simple json files, and have this structure:
   "assets": [
     {
       "name": "background",
-      "path": "/assets/background.jpg",
+      "path": "assets/background.jpg",
       "metadata": {}
     }
   ],
