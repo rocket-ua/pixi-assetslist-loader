@@ -1,0 +1,17 @@
+{
+  "params": {
+    "baseUrl": "base path for all assets in relation to this file"
+  },
+  "assets": [
+    {
+      "name": "some name for asset",
+      "path": "asset path in relation to this file",
+      "metadata": {
+
+      }
+    }
+  ],
+  "metaData": {
+    "type": "assetsList"
+  }
+}

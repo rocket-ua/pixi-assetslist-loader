@@ -1,0 +1,35 @@
+{
+  "name": "pixi-assetslist-loader",
+  "version": "1.0.0",
+  "description": "Simple library for PIXI.js to help download all assets using one (or some) config file",
+  "main": "src/AssetsListLoader",
+  "author": "rocket",
+  "license": "MIT",
+  "files": [
+    "src/*.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocket-ua/pixi-assetslist-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "assets loader",
+    "resource loader",
+    "assets list",
+    "resource list",
+    "pixi.js",
+    "pixijs",
+    "pixi"
+  ],
+  "bugs": {
+    "url": "https://github.com/rocket-ua/pixi-assetslist-loader/issues"
+  },
+  "homepage": "https://github.com/rocket-ua/pixi-assetslist-loader#readme",
+  "devDependencies": {
+    "pixi.js": "^5.2.1"
+  }
+}
