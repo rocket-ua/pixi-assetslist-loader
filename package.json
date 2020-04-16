@@ -1,6 +1,6 @@
 {
   "name": "pixi-assetslist-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple library for PIXI.js to help download all assets using one (or some) config file",
   "main": "src/AssetsListLoader",
   "author": "rocket",

@@ -25,7 +25,7 @@ Assets list files is simple json files, and have this structure:
       "metadata": {}
     }
   ],
-  "metaData": {
+  "metadata": {
     "type": "assetsList"
   }
 }
@@ -38,7 +38,7 @@ Assets list files is simple json files, and have this structure:
 - path - asset path in relative to config file location.  
 - metadata - object with any data what you want. Will be available into PIXI Loader like 'resource.metadata'. Not required parameter.
 
-**metaData** - description for loader. Must be like in example.  
+**metadata** - description for loader. Must be like in example.  
 ## For example
 ### Simple usage
 In this example downloading two images and one spritesheet.  
@@ -76,7 +76,7 @@ PIXI.Loader.shared.load()
       "path": "ui/ui-spritesheet.json"
     }
   ],
-  "metaData": {
+  "metadata": {
     "type": "assetsList"
   }
 }
@@ -120,7 +120,7 @@ PIXI.Loader.shared.load()
       "path": "imagesList.json"
     }
   ],
-  "metaData": {
+  "metadata": {
     "type": "assetsList"
   }
 }
@@ -139,7 +139,7 @@ PIXI.Loader.shared.load()
       "path": "decorations.json"
     }
   ],
-  "metaData": {
+  "metadata": {
     "type": "assetsList"
   }
 }
@@ -160,7 +160,7 @@ PIXI.Loader.shared.load()
       "path": "logo.png"
     }
   ],
-  "metaData": {
+  "metadata": {
     "type": "assetsList"
   }
 }
