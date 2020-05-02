@@ -25,12 +25,13 @@ export default class ResourcesLoader {
                 let options = {
                     crossOrigin: resource.crossOrigin,
                     parentResource: resource,
-                    metadata: {
-                        type: 'assetsListChild'
-                    }
+                    metadata: {}
                 };
                 assets.forEach(function (assetItem) {
                     if (assetItem.path && assetItem.path !== '') {
+                        options.metadata = {
+                            type: 'assetsListChild'
+                        }
                         options.name = assetItem.name || null;
 
                         /*const u0 = resource.url.replace(this.baseUrl, '');
